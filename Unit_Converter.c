@@ -15,7 +15,7 @@ int option; // global variable
 int main()
 {
     int type;
-    do
+    while(1)
     {
         printf("\n\nUNIT CONVERTER!\n\n");
         printf("Following are Topic of conversion:\n\n");
@@ -147,7 +147,7 @@ int main()
         default:
             printf("Please enter a correct option.\n");
         }
-    } while (type != 8);
+    } 
 }
 
 // function definition
